@@ -1,0 +1,5 @@
+D:\SolutionDemo\YuSong\LWP\LWP.Console\bin\Release\LWP.Console.exe
+D:\SolutionDemo\YuSong\LWP\LWP.Console\bin\Release\LWP.Console.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.Console\obj\x86\Release\LWP.Console.csprojResolveAssemblyReference.cache
+D:\SolutionDemo\YuSong\LWP\LWP.Console\obj\x86\Release\LWP.Console.exe
+D:\SolutionDemo\YuSong\LWP\LWP.Console\obj\x86\Release\LWP.Console.pdb

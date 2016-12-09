@@ -1,0 +1,1259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="FY_CPI_Objects" projectID="RIB-Template" createdBy="RIBiTWO-Revit-PlugIn [1.31.0.1-2009.07.31, CPI V1.4]" sourceApp="Revit2009" sourceFormat="rvt" created="2009-07-31T11:27:41" sourceFileName="C:\Users\Public\Documents\RIB\iTWO\V1\Files\Documents\Projekte\tmp\tmp\CPI\Intersection.cpixml" cpiversion="1.4">
+  <content version="1.2">
+    <section name="objectSection" />
+    <section name="topologySection" />
+  </content>
+  <IDMapping version="1.4">
+    <ID k="1" v="default-cpimat" />
+    <ID k="2" v="RIB-Template::e5e960dd-d8fa-4bd5-9e20-795ce8924e3d-00000e3c" />
+    <ID k="3" v="RIB-Template::e5e960dd-d8fa-4bd5-9e20-795ce8924e3d-00000d11" />
+    <ID k="4" v="RIB-Template::e1cb9fe4-7627-4962-8edd-9bcd187ca29a" />
+    <ID k="5" v="RIB-Template::default" />
+    <ID k="6" v="RIB-Template::a2bde56d-e9b1-41b0-9db6-fccb4e0664d6-00030bab" />
+    <ID k="7" v="RIB-Template::a2bde56d-e9b1-41b0-9db6-fccb4e0664d6-00030bac" />
+    <ID k="8" v="RIB-Template::a2bde56d-e9b1-41b0-9db6-fccb4e0664d6-00030bad" />
+    <ID k="9" v="RIB-Template::4355f167-7686-4330-acbb-144ec518a0a1-000060c2" />
+    <ID k="10" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030bbd" />
+    <ID k="11" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030bbe" />
+    <ID k="12" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030bbf" />
+    <ID k="13" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030bc0" />
+    <ID k="14" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030d03" />
+    <ID k="15" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-0003120f" />
+    
+    <ID k="17" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030c58" />
+    <ID k="18" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030c58xx" />
+    <ID k="19" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030d7f" />
+    <ID k="20" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030d7f-:-1086730651" />
+    <ID k="21" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030d7f-:-871683439" />
+    <ID k="22" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030da7" />
+    <ID k="23" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030da7-:-1086730651" />
+    <ID k="24" v="RIB-Template::e6fd5435-b32b-4f7d-810b-f34187193809-00030da7-:-871683439" />
+    <ID k="25" v="199595" />
+    <ID k="26" v="-2000051" />
+    <ID k="27" v="173" />
+    <ID k="28" v="-1" />
+    <ID k="29" v="0" />
+    <ID k="30" v="199596" />
+    <ID k="31" v="199597" />
+    <ID k="32" v="199613" />
+    <ID k="33" v="-2000011" />
+    <ID k="34" v="24770" />
+    <ID k="35" v="25474" />
+    <ID k="36" v="12" />
+    <ID k="37" v="199614" />
+    <ID k="38" v="199615" />
+    <ID k="39" v="199616" />
+    <ID k="40" v="199939" />
+    <ID k="41" v="-2000032" />
+    <ID k="42" v="-10" />
+    <ID k="43" v="201231" />
+    <ID k="44" v="200063" />
+    <ID k="45" v="-2001330" />
+    <ID k="46" v="122725" />
+    <ID k="47" v="3345" />
+    <ID k="48" v="200103" />
+    <ID k="49" v="200950" />
+    <ID k="50" v="-2000100" />
+    <ID k="51" v="199768" />
+    <ID k="52" v="-2000160" />
+    <ID k="53" v="-2000240" />
+    <ID k="54" v="29" />
+    <ID k="55" v="25273" />
+    <ID k="56" v="RIB-Template::Level::default" />
+    <ID k="57" v="RIB-Template::Level::4355f167-7686-4330-acbb-144ec518a0a1-000060c2" />
+  </IDMapping>
+  <objectSection unit="m" version="1.4">
+    <materialSection version="1.4">
+      <material ID="1" name="default-cpimat">
+        <diff r="255" g="0" b="0" a="1" />
+        <spec r="0" g="255" b="255" a="1" />
+        <amb r="255" g="0" b="0" a="1" />
+        <trans v="0.5" />
+      </material>
+      <material ID="2" name="Mauerwerk - Ziegel">
+        <diff r="247" g="47" b="47" a="1" />
+        <spec r="0" g="255" b="255" a="1" />
+        <amb r="0" g="0" b="0" a="1" />
+        <trans v="0" />
+      </material>
+      <material ID="3" name="Stahlbeton - Ortbeton">
+        <diff r="147" g="147" b="247" a="1" />
+        <spec r="0" g="255" b="255" a="1" />
+        <amb r="0" g="0" b="0" a="1" />
+        <trans v="0" />
+      </material>
+    </materialSection>
+    <rootContainer ID="4" name="RIB-Template" mRot="1 0 0 0 1 0 0 0 1 " vTrans="0 0 0 ">
+      <container ID="5" name="default">
+        <object3D ID="6" name="Modelllinien" matID="1" />
+        <object3D ID="7" name="Modelllinien" matID="1" />
+        <object3D ID="8" name="Modelllinien" matID="1" />
+      </container>
+      <container ID="9" name="Ebene 0">
+        <object3D ID="11" name="MW 36.5" matID="2" />
+        <object3D ID="12" name="MW 36.5" matID="2" />
+        <object3D ID="13" name="MW 36.5" matID="2" />
+        <object3D ID="14" name="STB 20.0" matID="3" />
+        <object3D ID="15" name="MW 36.5" matID="2" />
+      
+        <object3D ID="17" name="Raum 1" matID="1" />
+        <object3D ID="18" name="Raum 2" matID="1" />
+        <container ID="19" name="C100*100" composite="true">
+          <object3D ID="20" name="100*100" matID="1" />
+          <object3D ID="21" name="100*100" matID="3" />
+        	<object3D ID="10" name="MW 36.5" matID="2" />
+        </container>
+        <container ID="22" name="C100*100" composite="true">
+          <object3D ID="23" name="100*100" matID="1" />
+          <object3D ID="24" name="100*100" matID="3" />
+        </container>
+      </container>
+    </rootContainer>
+    <propertySection version="1.3">
+      <property refID="6" name="RevitID" datatype="xs:ID">25</property>
+      <property refID="6" name="RevitTypeName" datatype="xs:string">Modelllinien</property>
+      <property refID="6" name="RevitCategoryName" datatype="xs:string">Linien</property>
+      <property refID="6" name="RevitCategoryID" datatype="xs:IDREF">26</property>
+      <property refID="6" name="cpiLocation" datatype="coords3D" unit="m">0.000 -1.000 0.000 0.000 1.000 0.000 </property>
+      <property refID="6" name="cpiComponentDirection" datatype="coords3D">0.000 2.000 0.000 </property>
+      <property refID="6" name="Arbeitsebene" datatype="xs:string">Ebene : Ebene 0</property>
+      <property refID="6" name="Detaillinie" datatype="xs:long">0</property>
+      <property refID="6" name="Länge" datatype="xs:double" unit="m">2</property>
+      <property refID="6" name="Linienstil" datatype="xs:IDREF">27</property>
+      <property refID="6" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="6" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="6" name="Verschieben mit umliegenden Elementen" datatype="xs:long">0</property>
+      <property refID="6" name="MaterialID" datatype="xs:IDREF">1</property>
+      <property refID="6" name="MaterialName" datatype="xs:string">default-cpimat</property>
+      <property refID="7" name="RevitID" datatype="xs:ID">30</property>
+      <property refID="7" name="RevitTypeName" datatype="xs:string">Modelllinien</property>
+      <property refID="7" name="RevitCategoryName" datatype="xs:string">Linien</property>
+      <property refID="7" name="RevitCategoryID" datatype="xs:IDREF">26</property>
+      <property refID="7" name="cpiLocation" datatype="coords3D" unit="m">-1.000 0.000 0.000 1.000 0.000 0.000 </property>
+      <property refID="7" name="cpiComponentDirection" datatype="coords3D">2.000 0.000 0.000 </property>
+      <property refID="7" name="Arbeitsebene" datatype="xs:string">Ebene : Ebene 0</property>
+      <property refID="7" name="Detaillinie" datatype="xs:long">0</property>
+      <property refID="7" name="Länge" datatype="xs:double" unit="m">2</property>
+      <property refID="7" name="Linienstil" datatype="xs:IDREF">27</property>
+      <property refID="7" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="7" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="7" name="Verschieben mit umliegenden Elementen" datatype="xs:long">0</property>
+      <property refID="7" name="MaterialID" datatype="xs:IDREF">1</property>
+      <property refID="7" name="MaterialName" datatype="xs:string">default-cpimat</property>
+      <property refID="8" name="RevitID" datatype="xs:ID">31</property>
+      <property refID="8" name="RevitTypeName" datatype="xs:string">Modelllinien</property>
+      <property refID="8" name="RevitCategoryName" datatype="xs:string">Linien</property>
+      <property refID="8" name="RevitCategoryID" datatype="xs:IDREF">26</property>
+      <property refID="8" name="cpiLocation" datatype="coords3D" unit="m">0.400 0.000 0.000 0.394 0.069 0.000 0.376 0.137 0.000 0.346 0.200 0.000 0.306 0.257 0.000 0.257 0.306 0.000 0.200 0.346 0.000 0.137 0.376 0.000 0.069 0.394 0.000 0.000 0.400 0.000 -0.069 0.394 0.000 -0.137 0.376 0.000 -0.200 0.346 0.000 -0.257 0.306 0.000 -0.306 0.257 0.000 -0.346 0.200 0.000 -0.376 0.137 0.000 -0.394 0.069 0.000 -0.400 0.000 0.000 -0.394 -0.069 0.000 -0.376 -0.137 0.000 -0.346 -0.200 0.000 -0.306 -0.257 0.000 -0.257 -0.306 0.000 -0.200 -0.346 0.000 -0.137 -0.376 0.000 -0.069 -0.394 0.000 0.000 -0.400 0.000 0.069 -0.394 0.000 0.137 -0.376 0.000 0.200 -0.346 0.000 0.257 -0.306 0.000 0.306 -0.257 0.000 0.346 -0.200 0.000 0.376 -0.137 0.000 0.394 -0.069 0.000 0.400 0.000 0.000 </property>
+      <property refID="8" name="Arbeitsebene" datatype="xs:string">Ebene : Ebene 0</property>
+      <property refID="8" name="Detaillinie" datatype="xs:long">0</property>
+      <property refID="8" name="Länge" datatype="xs:double" unit="m">2.51327412287183</property>
+      <property refID="8" name="Linienstil" datatype="xs:IDREF">27</property>
+      <property refID="8" name="Mittelpunkt sichtbar" datatype="xs:long">0</property>
+      <property refID="8" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="8" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="8" name="Verschieben mit umliegenden Elementen" datatype="xs:long">0</property>
+      <property refID="8" name="MaterialID" datatype="xs:IDREF">1</property>
+      <property refID="8" name="MaterialName" datatype="xs:string">default-cpimat</property>
+      <property refID="10" name="RevitID" datatype="xs:ID">32</property>
+      <property refID="10" name="RevitTypeName" datatype="xs:string">MW 36.5</property>
+      <property refID="10" name="RevitCategoryName" datatype="xs:string">Wände</property>
+      <property refID="10" name="RevitCategoryID" datatype="xs:IDREF">33</property>
+      <property refID="10" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="10" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="10" name="cpiLocation" datatype="coords3D" unit="m">0.000 0.000 0.000 8.400 0.000 0.000 </property>
+      <property refID="10" name="cpiComponentDirection" datatype="coords3D">8.400 0.000 0.000 </property>
+      <property refID="10" name="NrLayers" datatype="xs:long">1</property>
+      <property refID="10" name="cpiComponentType" datatype="xs:string">Wall</property>
+      <property refID="10" name="WallLayer_00_Thickness" datatype="xs:double" unit="m">0.36499998832</property>
+      <property refID="10" name="WallLayer_00_Material" datatype="xs:IDREF">2</property>
+      <property refID="10" name="Basisabhängigkeit" datatype="xs:IDREF">34</property>
+      <property refID="10" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="10" name="Fläche" datatype="xs:double" unit="m2">23.1</property>
+      <property refID="10" name="Für Körper" datatype="xs:long">0</property>
+      <property refID="10" name="Länge" datatype="xs:double" unit="m">8.4</property>
+      <property refID="10" name="Nicht verknüpfte Höhe" datatype="xs:double" unit="m">2.75</property>
+      <property refID="10" name="Obere Abhängigkeit" datatype="xs:IDREF">35</property>
+      <property refID="10" name="Oberer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="10" name="Oberer Versatz" datatype="xs:double" unit="m">0</property>
+      <property refID="10" name="Oberkante ist fixiert." datatype="xs:long">0</property>
+      <property refID="10" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="10" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="10" name="Positionslinie" datatype="xs:long">0</property>
+      <property refID="10" name="Raumbegrenzung" datatype="xs:long">1</property>
+      <property refID="10" name="Tragwerksverwendung" datatype="xs:long">0</property>
+      <property refID="10" name="Unterer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="10" name="Unterkante ist fixiert" datatype="xs:long">0</property>
+      <property refID="10" name="Volumen" datatype="xs:double" unit="m3">8.4315</property>
+      <property refID="10" name="RevitObjectType" datatype="xs:string">MW 36.5</property>
+      <property refID="10" name="Abschluss an Öffnungen" datatype="xs:long">0</property>
+      <property refID="10" name="Abschluss an Wänden" datatype="xs:long">0</property>
+      <property refID="10" name="Breite" datatype="xs:double" unit="m">0.365</property>
+      <property refID="10" name="Farbfüllung für groben Maßstab" datatype="xs:long">0</property>
+      <property refID="10" name="Filter Tragend / Nichttragend" datatype="xs:long">1</property>
+      <property refID="10" name="Füllmuster für groben Maßstab" datatype="xs:IDREF">36</property>
+      <property refID="10" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="10" name="Typenkommentare" datatype="xs:string">Mauerwerk</property>
+      <property refID="10" name="Wandfunktion" datatype="xs:long">1</property>
+      <property refID="10" name="MaterialID" datatype="xs:IDREF">2</property>
+      <property refID="10" name="MaterialName" datatype="xs:string">Mauerwerk - Ziegel</property>
+      <property refID="11" name="RevitID" datatype="xs:ID">37</property>
+      <property refID="11" name="RevitTypeName" datatype="xs:string">MW 36.5</property>
+      <property refID="11" name="RevitCategoryName" datatype="xs:string">Wände</property>
+      <property refID="11" name="RevitCategoryID" datatype="xs:IDREF">33</property>
+      <property refID="11" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="11" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="11" name="cpiLocation" datatype="coords3D" unit="m">0.000 7.700 0.000 0.000 0.000 0.000 </property>
+      <property refID="11" name="cpiComponentDirection" datatype="coords3D">0.000 -7.700 0.000 </property>
+      <property refID="11" name="NrLayers" datatype="xs:long">1</property>
+      <property refID="11" name="cpiComponentType" datatype="xs:string">Wall</property>
+      <property refID="11" name="WallLayer_00_Thickness" datatype="xs:double" unit="m">0.36499998832</property>
+      <property refID="11" name="WallLayer_00_Material" datatype="xs:IDREF">2</property>
+      <property refID="11" name="Basisabhängigkeit" datatype="xs:IDREF">34</property>
+      <property refID="11" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="11" name="Fläche" datatype="xs:double" unit="m2">21.175</property>
+      <property refID="11" name="Für Körper" datatype="xs:long">0</property>
+      <property refID="11" name="Länge" datatype="xs:double" unit="m">7.7</property>
+      <property refID="11" name="Nicht verknüpfte Höhe" datatype="xs:double" unit="m">2.75</property>
+      <property refID="11" name="Obere Abhängigkeit" datatype="xs:IDREF">35</property>
+      <property refID="11" name="Oberer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="11" name="Oberer Versatz" datatype="xs:double" unit="m">0</property>
+      <property refID="11" name="Oberkante ist fixiert." datatype="xs:long">0</property>
+      <property refID="11" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="11" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="11" name="Positionslinie" datatype="xs:long">0</property>
+      <property refID="11" name="Raumbegrenzung" datatype="xs:long">1</property>
+      <property refID="11" name="Tragwerksverwendung" datatype="xs:long">0</property>
+      <property refID="11" name="Unterer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="11" name="Unterkante ist fixiert" datatype="xs:long">0</property>
+      <property refID="11" name="Volumen" datatype="xs:double" unit="m3">7.728875</property>
+      <property refID="11" name="RevitObjectType" datatype="xs:string">MW 36.5</property>
+      <property refID="11" name="Abschluss an Öffnungen" datatype="xs:long">0</property>
+      <property refID="11" name="Abschluss an Wänden" datatype="xs:long">0</property>
+      <property refID="11" name="Breite" datatype="xs:double" unit="m">0.365</property>
+      <property refID="11" name="Farbfüllung für groben Maßstab" datatype="xs:long">0</property>
+      <property refID="11" name="Filter Tragend / Nichttragend" datatype="xs:long">1</property>
+      <property refID="11" name="Füllmuster für groben Maßstab" datatype="xs:IDREF">36</property>
+      <property refID="11" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="11" name="Typenkommentare" datatype="xs:string">Mauerwerk</property>
+      <property refID="11" name="Wandfunktion" datatype="xs:long">1</property>
+      <property refID="11" name="MaterialID" datatype="xs:IDREF">2</property>
+      <property refID="11" name="MaterialName" datatype="xs:string">Mauerwerk - Ziegel</property>
+      <property refID="12" name="RevitID" datatype="xs:ID">38</property>
+      <property refID="12" name="RevitTypeName" datatype="xs:string">MW 36.5</property>
+      <property refID="12" name="RevitCategoryName" datatype="xs:string">Wände</property>
+      <property refID="12" name="RevitCategoryID" datatype="xs:IDREF">33</property>
+      <property refID="12" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="12" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="12" name="cpiLocation" datatype="coords3D" unit="m">6.467 7.700 0.000 0.000 7.700 0.000 </property>
+      <property refID="12" name="cpiComponentDirection" datatype="coords3D">-6.467 0.000 0.000 </property>
+      <property refID="12" name="NrLayers" datatype="xs:long">1</property>
+      <property refID="12" name="cpiComponentType" datatype="xs:string">Wall</property>
+      <property refID="12" name="WallLayer_00_Thickness" datatype="xs:double" unit="m">0.36499998832</property>
+      <property refID="12" name="WallLayer_00_Material" datatype="xs:IDREF">2</property>
+      <property refID="12" name="Basisabhängigkeit" datatype="xs:IDREF">34</property>
+      <property refID="12" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="12" name="Fläche" datatype="xs:double" unit="m2">16.73375</property>
+      <property refID="12" name="Für Körper" datatype="xs:long">0</property>
+      <property refID="12" name="Länge" datatype="xs:double" unit="m">6.4675</property>
+      <property refID="12" name="Nicht verknüpfte Höhe" datatype="xs:double" unit="m">2.75</property>
+      <property refID="12" name="Obere Abhängigkeit" datatype="xs:IDREF">35</property>
+      <property refID="12" name="Oberer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="12" name="Oberer Versatz" datatype="xs:double" unit="m">0</property>
+      <property refID="12" name="Oberkante ist fixiert." datatype="xs:long">0</property>
+      <property refID="12" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="12" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="12" name="Positionslinie" datatype="xs:long">0</property>
+      <property refID="12" name="Raumbegrenzung" datatype="xs:long">1</property>
+      <property refID="12" name="Tragwerksverwendung" datatype="xs:long">0</property>
+      <property refID="12" name="Unterer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="12" name="Unterkante ist fixiert" datatype="xs:long">0</property>
+      <property refID="12" name="Volumen" datatype="xs:double" unit="m3">6.10781875000001</property>
+      <property refID="12" name="RevitObjectType" datatype="xs:string">MW 36.5</property>
+      <property refID="12" name="Abschluss an Öffnungen" datatype="xs:long">0</property>
+      <property refID="12" name="Abschluss an Wänden" datatype="xs:long">0</property>
+      <property refID="12" name="Breite" datatype="xs:double" unit="m">0.365</property>
+      <property refID="12" name="Farbfüllung für groben Maßstab" datatype="xs:long">0</property>
+      <property refID="12" name="Filter Tragend / Nichttragend" datatype="xs:long">1</property>
+      <property refID="12" name="Füllmuster für groben Maßstab" datatype="xs:IDREF">36</property>
+      <property refID="12" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="12" name="Typenkommentare" datatype="xs:string">Mauerwerk</property>
+      <property refID="12" name="Wandfunktion" datatype="xs:long">1</property>
+      <property refID="12" name="MaterialID" datatype="xs:IDREF">2</property>
+      <property refID="12" name="MaterialName" datatype="xs:string">Mauerwerk - Ziegel</property>
+      <property refID="13" name="RevitID" datatype="xs:ID">39</property>
+      <property refID="13" name="RevitTypeName" datatype="xs:string">MW 36.5</property>
+      <property refID="13" name="RevitCategoryName" datatype="xs:string">Wände</property>
+      <property refID="13" name="RevitCategoryID" datatype="xs:IDREF">33</property>
+      <property refID="13" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="13" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="13" name="cpiLocation" datatype="coords3D" unit="m">8.400 0.000 0.000 8.400 7.700 0.000 </property>
+      <property refID="13" name="cpiComponentDirection" datatype="coords3D">0.000 7.700 0.000 </property>
+      <property refID="13" name="NrLayers" datatype="xs:long">1</property>
+      <property refID="13" name="cpiComponentType" datatype="xs:string">Wall</property>
+      <property refID="13" name="WallLayer_00_Thickness" datatype="xs:double" unit="m">0.36499998832</property>
+      <property refID="13" name="WallLayer_00_Material" datatype="xs:IDREF">2</property>
+      <property refID="13" name="Basisabhängigkeit" datatype="xs:IDREF">34</property>
+      <property refID="13" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="13" name="Fläche" datatype="xs:double" unit="m2">22.17875</property>
+      <property refID="13" name="Für Körper" datatype="xs:long">0</property>
+      <property refID="13" name="Länge" datatype="xs:double" unit="m">7.7</property>
+      <property refID="13" name="Nicht verknüpfte Höhe" datatype="xs:double" unit="m">2.75</property>
+      <property refID="13" name="Obere Abhängigkeit" datatype="xs:IDREF">35</property>
+      <property refID="13" name="Oberer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="13" name="Oberer Versatz" datatype="xs:double" unit="m">0</property>
+      <property refID="13" name="Oberkante ist fixiert." datatype="xs:long">0</property>
+      <property refID="13" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="13" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="13" name="Positionslinie" datatype="xs:long">0</property>
+      <property refID="13" name="Raumbegrenzung" datatype="xs:long">1</property>
+      <property refID="13" name="Tragwerksverwendung" datatype="xs:long">0</property>
+      <property refID="13" name="Unterer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="13" name="Unterkante ist fixiert" datatype="xs:long">0</property>
+      <property refID="13" name="Volumen" datatype="xs:double" unit="m3">8.09524375</property>
+      <property refID="13" name="RevitObjectType" datatype="xs:string">MW 36.5</property>
+      <property refID="13" name="Abschluss an Öffnungen" datatype="xs:long">0</property>
+      <property refID="13" name="Abschluss an Wänden" datatype="xs:long">0</property>
+      <property refID="13" name="Breite" datatype="xs:double" unit="m">0.365</property>
+      <property refID="13" name="Farbfüllung für groben Maßstab" datatype="xs:long">0</property>
+      <property refID="13" name="Filter Tragend / Nichttragend" datatype="xs:long">1</property>
+      <property refID="13" name="Füllmuster für groben Maßstab" datatype="xs:IDREF">36</property>
+      <property refID="13" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="13" name="Typenkommentare" datatype="xs:string">Mauerwerk</property>
+      <property refID="13" name="Wandfunktion" datatype="xs:long">1</property>
+      <property refID="13" name="MaterialID" datatype="xs:IDREF">2</property>
+      <property refID="13" name="MaterialName" datatype="xs:string">Mauerwerk - Ziegel</property>
+      <property refID="14" name="RevitID" datatype="xs:ID">40</property>
+      <property refID="14" name="RevitTypeName" datatype="xs:string">STB 20.0</property>
+      <property refID="14" name="RevitCategoryName" datatype="xs:string">Geschossdecken</property>
+      <property refID="14" name="RevitCategoryID" datatype="xs:IDREF">41</property>
+      <property refID="14" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="14" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="14" name="cpiLocation" datatype="coords3D" unit="m">-0.182 -0.182 0.000 8.582 -0.182 0.000 8.582 7.882 0.000 -0.182 7.882 0.000 -0.182 -0.182 0.000 </property>
+      <property refID="14" name="Ebene" datatype="xs:IDREF">34</property>
+      <property refID="14" name="Fläche" datatype="xs:double" unit="m2">70.689725</property>
+      <property refID="14" name="Für Körper" datatype="xs:long">0</property>
+      <property refID="14" name="Höhenversatz von Ebene" datatype="xs:double" unit="m">0</property>
+      <property refID="14" name="Neigung" datatype="xs:double" unit="deg">0</property>
+      <property refID="14" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="14" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="14" name="Raumbegrenzung" datatype="xs:long">1</property>
+      <property refID="14" name="Stärke" datatype="xs:double" unit="m">0.2</property>
+      <property refID="14" name="Tragwerk" datatype="xs:long">0</property>
+      <property refID="14" name="Tragwerksverwendung" datatype="xs:long">3</property>
+      <property refID="14" name="Umfang" datatype="xs:double" unit="m">33.66</property>
+      <property refID="14" name="Vertikale Projektion" datatype="xs:IDREF">42</property>
+      <property refID="14" name="Volumen" datatype="xs:double" unit="m3">14.137945</property>
+      <property refID="14" name="RevitObjectType" datatype="xs:string">STB 20.0</property>
+      <property refID="14" name="Farbfüllung für groben Maßstab" datatype="xs:long">0</property>
+      <property refID="14" name="Füllmuster für groben Maßstab" datatype="xs:IDREF">36</property>
+      <property refID="14" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="14" name="Standarddicke" datatype="xs:double" unit="m">0.2</property>
+      <property refID="14" name="MaterialID" datatype="xs:IDREF">3</property>
+      <property refID="14" name="MaterialName" datatype="xs:string">Stahlbeton - Ortbeton</property>
+      <property refID="15" name="RevitID" datatype="xs:ID">43</property>
+      <property refID="15" name="RevitTypeName" datatype="xs:string">MW 36.5</property>
+      <property refID="15" name="RevitCategoryName" datatype="xs:string">Wände</property>
+      <property refID="15" name="RevitCategoryID" datatype="xs:IDREF">33</property>
+      <property refID="15" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="15" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="15" name="cpiLocation" datatype="coords3D" unit="m">6.567 7.700 0.000 8.400 7.700 0.000 </property>
+      <property refID="15" name="cpiComponentDirection" datatype="coords3D">1.832 0.000 0.000 </property>
+      <property refID="15" name="NrLayers" datatype="xs:long">1</property>
+      <property refID="15" name="cpiComponentType" datatype="xs:string">Wall</property>
+      <property refID="15" name="WallLayer_00_Thickness" datatype="xs:double" unit="m">0.36499998832</property>
+      <property refID="15" name="WallLayer_00_Material" datatype="xs:IDREF">2</property>
+      <property refID="15" name="Basisabhängigkeit" datatype="xs:IDREF">34</property>
+      <property refID="15" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="15" name="Fläche" datatype="xs:double" unit="m2">4.5375</property>
+      <property refID="15" name="Für Körper" datatype="xs:long">0</property>
+      <property refID="15" name="Länge" datatype="xs:double" unit="m">1.8325</property>
+      <property refID="15" name="Nicht verknüpfte Höhe" datatype="xs:double" unit="m">2.75</property>
+      <property refID="15" name="Obere Abhängigkeit" datatype="xs:IDREF">35</property>
+      <property refID="15" name="Oberer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="15" name="Oberer Versatz" datatype="xs:double" unit="m">0</property>
+      <property refID="15" name="Oberkante ist fixiert." datatype="xs:long">0</property>
+      <property refID="15" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="15" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="15" name="Positionslinie" datatype="xs:long">0</property>
+      <property refID="15" name="Raumbegrenzung" datatype="xs:long">1</property>
+      <property refID="15" name="Tragwerksverwendung" datatype="xs:long">0</property>
+      <property refID="15" name="Unterer Verlängerungsabstand" datatype="xs:double" unit="m">0</property>
+      <property refID="15" name="Unterkante ist fixiert" datatype="xs:long">0</property>
+      <property refID="15" name="Volumen" datatype="xs:double" unit="m3">1.6561875</property>
+      <property refID="15" name="RevitObjectType" datatype="xs:string">MW 36.5</property>
+      <property refID="15" name="Abschluss an Öffnungen" datatype="xs:long">0</property>
+      <property refID="15" name="Abschluss an Wänden" datatype="xs:long">0</property>
+      <property refID="15" name="Breite" datatype="xs:double" unit="m">0.365</property>
+      <property refID="15" name="Farbfüllung für groben Maßstab" datatype="xs:long">0</property>
+      <property refID="15" name="Filter Tragend / Nichttragend" datatype="xs:long">1</property>
+      <property refID="15" name="Füllmuster für groben Maßstab" datatype="xs:IDREF">36</property>
+      <property refID="15" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="15" name="Typenkommentare" datatype="xs:string">Mauerwerk</property>
+      <property refID="15" name="Wandfunktion" datatype="xs:long">1</property>
+      <property refID="15" name="MaterialID" datatype="xs:IDREF">2</property>
+      <property refID="15" name="MaterialName" datatype="xs:string">Mauerwerk - Ziegel</property>
+      <property refID="19" name="RevitFamilyName" datatype="xs:string">STB Stütze - rechteckig</property>
+      <property refID="19" name="RevitID" datatype="xs:ID">44</property>
+      <property refID="19" name="RevitTypeName" datatype="xs:string">100*100</property>
+      <property refID="19" name="RevitCategoryName" datatype="xs:string">Tragende Stützen</property>
+      <property refID="19" name="RevitCategoryID" datatype="xs:IDREF">45</property>
+      <property refID="19" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="19" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="19" name="cpiLocation" datatype="coords3D" unit="m">2.418 7.517 0.000</property>
+      <property refID="19" name="cpiLocation.Rotation" datatype="xs:double">10</property>
+      <property refID="19" name="Analysieren als" datatype="xs:long">1</property>
+      <property refID="19" name="Basisebene" datatype="xs:IDREF">34</property>
+      <property refID="19" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="19" name="Bewehrungsüberdeckung - Andere Flächen" datatype="xs:IDREF">46</property>
+      <property refID="19" name="Bewehrungsüberdeckung - Obere Fläche" datatype="xs:IDREF">46</property>
+      <property refID="19" name="Bewehrungsüberdeckung - Untere Fläche" datatype="xs:IDREF">46</property>
+      <property refID="19" name="Freigabe oben" datatype="xs:long">1</property>
+      <property refID="19" name="Freigabe unten" datatype="xs:long">1</property>
+      <property refID="19" name="Fx oben" datatype="xs:long">0</property>
+      <property refID="19" name="Fx unten" datatype="xs:long">0</property>
+      <property refID="19" name="Fy oben" datatype="xs:long">0</property>
+      <property refID="19" name="Fy unten" datatype="xs:long">0</property>
+      <property refID="19" name="Fz oben" datatype="xs:long">0</property>
+      <property refID="19" name="Fz unten" datatype="xs:long">0</property>
+      <property refID="19" name="Horizontale Projektion automatisch erkennen" datatype="xs:long">0</property>
+      <property refID="19" name="Mx oben" datatype="xs:long">1</property>
+      <property refID="19" name="Mx unten" datatype="xs:long">0</property>
+      <property refID="19" name="My oben" datatype="xs:long">1</property>
+      <property refID="19" name="My unten" datatype="xs:long">1</property>
+      <property refID="19" name="Mz oben" datatype="xs:long">1</property>
+      <property refID="19" name="Mz unten" datatype="xs:long">1</property>
+      <property refID="19" name="Obere vertikale Projektion" datatype="xs:IDREF">28</property>
+      <property refID="19" name="Oberer Versatz" datatype="xs:double" unit="m">0</property>
+      <property refID="19" name="Oberste Ebene" datatype="xs:IDREF">35</property>
+      <property refID="19" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="19" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="19" name="Raumbegrenzung" datatype="xs:long">0</property>
+      <property refID="19" name="Starre Verbindungen" datatype="xs:long">0</property>
+      <property refID="19" name="Stützenmaterial" datatype="xs:IDREF">47</property>
+      <property refID="19" name="Untere vertikale Projektion" datatype="xs:IDREF">28</property>
+      <property refID="19" name="Verschieben mit Raster" datatype="xs:long">1</property>
+      <property refID="19" name="Volumen" datatype="xs:double" unit="m3">0.825</property>
+      <property refID="19" name="RevitObjectType" datatype="xs:string">100*100</property>
+      <property refID="19" name="Breite" datatype="xs:double" unit="m">0.1</property>
+      <property refID="19" name="Filter Tragend / Nichttragend" datatype="xs:long">0</property>
+      <property refID="19" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="19" name="Tiefe" datatype="xs:double" unit="m">3</property>
+      <property refID="20" name="MaterialID" datatype="xs:IDREF">1</property>
+      <property refID="20" name="MaterialName" datatype="xs:string">default-cpimat</property>
+      <property refID="21" name="MaterialID" datatype="xs:IDREF">3</property>
+      <property refID="21" name="MaterialName" datatype="xs:string">Stahlbeton - Ortbeton</property>
+      <property refID="22" name="RevitFamilyName" datatype="xs:string">STB Stütze - rechteckig</property>
+      <property refID="22" name="RevitID" datatype="xs:ID">48</property>
+      <property refID="22" name="RevitTypeName" datatype="xs:string">100*100</property>
+      <property refID="22" name="RevitCategoryName" datatype="xs:string">Tragende Stützen</property>
+      <property refID="22" name="RevitCategoryID" datatype="xs:IDREF">45</property>
+      <property refID="22" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="22" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="22" name="cpiLocation" datatype="coords3D" unit="m">5.617 7.917 0.000</property>
+      <property refID="22" name="cpiLocation.Rotation" datatype="xs:double">20</property>
+      <property refID="22" name="Analysieren als" datatype="xs:long">1</property>
+      <property refID="22" name="Basisebene" datatype="xs:IDREF">34</property>
+      <property refID="22" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="22" name="Bewehrungsüberdeckung - Andere Flächen" datatype="xs:IDREF">46</property>
+      <property refID="22" name="Bewehrungsüberdeckung - Obere Fläche" datatype="xs:IDREF">46</property>
+      <property refID="22" name="Bewehrungsüberdeckung - Untere Fläche" datatype="xs:IDREF">46</property>
+      <property refID="22" name="Freigabe oben" datatype="xs:long">1</property>
+      <property refID="22" name="Freigabe unten" datatype="xs:long">1</property>
+      <property refID="22" name="Fx oben" datatype="xs:long">0</property>
+      <property refID="22" name="Fx unten" datatype="xs:long">0</property>
+      <property refID="22" name="Fy oben" datatype="xs:long">0</property>
+      <property refID="22" name="Fy unten" datatype="xs:long">0</property>
+      <property refID="22" name="Fz oben" datatype="xs:long">0</property>
+      <property refID="22" name="Fz unten" datatype="xs:long">0</property>
+      <property refID="22" name="Horizontale Projektion automatisch erkennen" datatype="xs:long">0</property>
+      <property refID="22" name="Mx oben" datatype="xs:long">1</property>
+      <property refID="22" name="Mx unten" datatype="xs:long">0</property>
+      <property refID="22" name="My oben" datatype="xs:long">1</property>
+      <property refID="22" name="My unten" datatype="xs:long">1</property>
+      <property refID="22" name="Mz oben" datatype="xs:long">1</property>
+      <property refID="22" name="Mz unten" datatype="xs:long">1</property>
+      <property refID="22" name="Obere vertikale Projektion" datatype="xs:IDREF">28</property>
+      <property refID="22" name="Oberer Versatz" datatype="xs:double" unit="m">0</property>
+      <property refID="22" name="Oberste Ebene" datatype="xs:IDREF">35</property>
+      <property refID="22" name="Phase abgebrochen" datatype="xs:IDREF">28</property>
+      <property refID="22" name="Phase erstellt" datatype="xs:IDREF">29</property>
+      <property refID="22" name="Raumbegrenzung" datatype="xs:long">0</property>
+      <property refID="22" name="Starre Verbindungen" datatype="xs:long">0</property>
+      <property refID="22" name="Stützenmaterial" datatype="xs:IDREF">47</property>
+      <property refID="22" name="Untere vertikale Projektion" datatype="xs:IDREF">28</property>
+      <property refID="22" name="Verschieben mit Raster" datatype="xs:long">1</property>
+      <property refID="22" name="Volumen" datatype="xs:double" unit="m3">0.824999999999999</property>
+      <property refID="22" name="RevitObjectType" datatype="xs:string">100*100</property>
+      <property refID="22" name="Breite" datatype="xs:double" unit="m">0.1</property>
+      <property refID="22" name="Filter Tragend / Nichttragend" datatype="xs:long">0</property>
+      <property refID="22" name="Kosten" datatype="xs:string">0.00</property>
+      <property refID="22" name="Tiefe" datatype="xs:double" unit="m">3</property>
+      <property refID="23" name="MaterialID" datatype="xs:IDREF">1</property>
+      <property refID="23" name="MaterialName" datatype="xs:string">default-cpimat</property>
+      <property refID="24" name="MaterialID" datatype="xs:IDREF">3</property>
+      <property refID="24" name="MaterialName" datatype="xs:string">Stahlbeton - Ortbeton</property>
+     
+     
+      <property refID="17" name="RevitID" datatype="xs:ID">51</property>
+      <property refID="17" name="RevitTypeName" datatype="xs:string">Raum 1</property>
+      <property refID="17" name="RevitCategoryName" datatype="xs:string">Räume</property>
+      <property refID="17" name="RevitCategoryID" datatype="xs:IDREF">52</property>
+      <property refID="17" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="17" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="17" name="cpiLocation" datatype="coords3D" unit="m">3.337 5.405 0.000</property>
+      <property refID="17" name="Anrechenbarkeit" datatype="xs:IDREF">28</property>
+      <property refID="17" name="Anzahl" datatype="xs:string">1</property>
+      <property refID="17" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="17" name="Category" datatype="xs:IDREF">28</property>
+      <property refID="17" name="Ebene" datatype="xs:IDREF">34</property>
+      <property refID="17" name="Faktor Anrechenbarkeit" datatype="xs:string">0.000000</property>
+      <property refID="17" name="Fläche" datatype="xs:double" unit="m2">58.936725</property>
+      <property refID="17" name="#Name" datatype="xs:string">Raum</property>
+      <property refID="17" name="Oberkante" datatype="xs:IDREF">35</property>
+      <property refID="17" name="Phase" datatype="xs:IDREF">29</property>
+      <property refID="17" name="Putzabzug" datatype="xs:double" unit="m">0</property>
+      <property refID="17" name="Raumschlüssel Nutzart DIN 277" datatype="xs:IDREF">28</property>
+      <property refID="17" name="Schlüssel Putzabzug" datatype="xs:IDREF">28</property>
+      <property refID="17" name="Umfang" datatype="xs:double" unit="m">30.64</property>
+      <property refID="17" name="Ungebundene Höhe" datatype="xs:double" unit="m">2.75</property>
+      <property refID="17" name="Versatz Oberkante" datatype="xs:double" unit="m">0</property>
+      <property refID="17" name="Volumen" datatype="xs:double" unit="m3">0</property>
+      <property refID="17" name="MaterialID" datatype="xs:IDREF">1</property>
+      <property refID="17" name="MaterialName" datatype="xs:string">default-cpimat</property>
+      <property refID="9" name="RevitID" datatype="xs:ID">34</property>
+      <property refID="9" name="RevitTypeName" datatype="xs:string">Ebene 0</property>
+      <property refID="9" name="RevitCategoryName" datatype="xs:string">Ebenen</property>
+      <property refID="9" name="RevitCategoryID" datatype="xs:IDREF">53</property>
+      <property refID="9" name="Ansicht" datatype="xs:double" unit="m">0</property>
+      <property refID="9" name="Bildausschnitt" datatype="xs:IDREF">28</property>
+      <property refID="9" name="Name" datatype="xs:string">Ebene 0</property>
+      <property refID="9" name="RevitObjectType" datatype="xs:string">Ebene</property>
+      <property refID="9" name="Basishöhe" datatype="xs:long">0</property>
+      <property refID="9" name="Farbe" datatype="xs:long">16711680</property>
+      <property refID="9" name="Höhe für automatische Raumberechnung" datatype="xs:long">1</property>
+      <property refID="9" name="Höhe für Berechnung" datatype="xs:double" unit="m">0</property>
+      <property refID="9" name="Linienmuster" datatype="xs:IDREF">54</property>
+      <property refID="9" name="Linienstärke" datatype="xs:long">1</property>
+      <property refID="9" name="Symbol" datatype="xs:IDREF">55</property>
+      <property refID="9" name="Symbol bei Ende 1 Standard" datatype="xs:long">0</property>
+      <property refID="9" name="Symbol bei Ende 2 Standard" datatype="xs:long">1</property>
+      <property refID="16" name="cpiComponentType" datatype="xs:string">Column</property>
+      <property refID="19" name="cpiComponentType" datatype="xs:string">Column</property>
+      <property refID="22" name="cpiComponentType" datatype="xs:string">Column</property>
+      <property refID="14" name="cpiComponentType" datatype="xs:string">Slab</property>
+      <property refID="18" name="cpiComponentType" datatype="xs:string">Space</property>
+      <property refID="18" name="RevitID" datatype="xs:ID">51</property>
+      <property refID="18" name="RevitTypeName" datatype="xs:string">Raum 1</property>
+      <property refID="18" name="RevitCategoryName" datatype="xs:string">Räume</property>
+      <property refID="18" name="RevitCategoryID" datatype="xs:IDREF">52</property>
+      <property refID="18" name="RevitLevelID" datatype="xs:IDREF">9</property>
+      <property refID="18" name="RevitLevelName" datatype="xs:string">Ebene 0</property>
+      <property refID="18" name="cpiLocation" datatype="coords3D" unit="m">3.337 5.405 0.000</property>
+      <property refID="18" name="Anrechenbarkeit" datatype="xs:IDREF">28</property>
+      <property refID="18" name="Anzahl" datatype="xs:string">1</property>
+      <property refID="18" name="Basisversatz" datatype="xs:double" unit="m">0</property>
+      <property refID="18" name="Category" datatype="xs:IDREF">28</property>
+      <property refID="18" name="Ebene" datatype="xs:IDREF">34</property>
+      <property refID="18" name="Faktor Anrechenbarkeit" datatype="xs:string">0.000000</property>
+      <property refID="18" name="Fläche" datatype="xs:double" unit="m2">58.936725</property>
+      <property refID="18" name="#Name" datatype="xs:string">Raum</property>
+      <property refID="18" name="Oberkante" datatype="xs:IDREF">35</property>
+      <property refID="18" name="Phase" datatype="xs:IDREF">29</property>
+      <property refID="18" name="Putzabzug" datatype="xs:double" unit="m">0</property>
+      <property refID="18" name="Raumschlüssel Nutzart DIN 277" datatype="xs:IDREF">28</property>
+      <property refID="18" name="Schlüssel Putzabzug" datatype="xs:IDREF">28</property>
+      <property refID="18" name="Umfang" datatype="xs:double" unit="m">30.64</property>
+      <property refID="18" name="Ungebundene Höhe" datatype="xs:double" unit="m">2.75</property>
+      <property refID="18" name="Versatz Oberkante" datatype="xs:double" unit="m">0</property>
+      <property refID="18" name="Volumen" datatype="xs:double" unit="m3">0</property>
+      <property refID="18" name="MaterialID" datatype="xs:IDREF">1</property>
+      <property refID="18" name="MaterialName" datatype="xs:string">default-cpimat</property>
+    </propertySection>
+  </objectSection>
+  <topologySection version="1.3">
+    <hRefs unit="m">
+      <hRef ID="56" z="0" />
+      <hRef ID="57" z="0" />
+      <hRefRel refID="6" hRefL="56" />
+      <hRefRel refID="7" hRefL="56" />
+      <hRefRel refID="8" hRefL="56" />
+      <hRefRel refID="10" hRefL="57" />
+      <hRefRel refID="11" hRefL="57" />
+      <hRefRel refID="12" hRefL="57" />
+      <hRefRel refID="13" hRefL="57" />
+      <hRefRel refID="14" hRefL="57" />
+      <hRefRel refID="15" hRefL="57" />
+      <hRefRel refID="20" hRefL="57" />
+      <hRefRel refID="21" hRefL="57" />
+      <hRefRel refID="19" hRefL="57" />
+      <hRefRel refID="23" hRefL="57" />
+      <hRefRel refID="24" hRefL="57" />
+      <hRefRel refID="22" hRefL="57" />
+     
+      <hRefRel refID="17" hRefL="57" />
+      <hRefRel refID="18" hRefL="57" />
+    </hRefs>
+  </topologySection>
+  <objectDataSection version="1.4">
+    <data3D refID="6">
+      <p nr="0" x="0" y="-1" z="0" />
+      <p nr="1" x="0" y="1" z="0" />
+      <pl length="2" points="0 1" />
+    </data3D>
+    <data3D refID="7">
+      <p nr="0" x="-1" y="0" z="0" />
+      <p nr="1" x="1" y="0" z="0" />
+      <pl length="2" points="0 1" />
+    </data3D>
+    <data3D refID="8" />
+    <data3D refID="10">
+      <p nr="0" x="-0.1825" y="-0.1825" z="0" />
+      <p nr="1" x="-0.1825" y="-0.1825" z="2.75" />
+      <p nr="2" x="-0.1825" y="0.1825" z="0" />
+      <p nr="3" x="-0.1825" y="0.1825" z="2.75" />
+      <p nr="4" x="8.2175" y="-0.1825" z="0" />
+      <p nr="5" x="8.2175" y="-0.1825" z="2.75" />
+      <p nr="6" x="0.1825" y="0.1825" z="0" />
+      <p nr="7" x="8.2175" y="0.1825" z="0" />
+      <p nr="8" x="8.2175" y="0.1825" z="2.75" />
+      <p nr="9" x="0.1825" y="0.1825" z="2.75" />
+      <pl length="5" points="0 4 5 1 0">
+        <tess>
+          <t p1="1" p2="0" p3="5" />
+          <t p1="4" p2="5" p3="0" />
+        </tess>
+      </pl>
+      <pl length="6" points="0 2 6 7 4 0">
+        <tess>
+          <t p1="4" p2="0" p3="6" />
+          <t p1="2" p2="6" p3="0" />
+          <t p1="6" p2="7" p3="4" />
+        </tess>
+      </pl>
+      <pl length="6" points="5 8 9 3 1 5">
+        <tess>
+          <t p1="1" p2="5" p3="9" />
+          <t p1="8" p2="9" p3="5" />
+          <t p1="9" p2="3" p3="1" />
+        </tess>
+      </pl>
+      <pl length="5" points="1 3 2 0 1">
+        <tess>
+          <t p1="3" p2="2" p3="0" />
+          <t p1="0" p2="1" p3="3" />
+        </tess>
+      </pl>
+      <pl length="7" points="2 3 9 8 7 6 2">
+        <tess>
+          <t p1="8" p2="7" p3="6" />
+          <t p1="8" p2="6" p3="9" />
+          <t p1="9" p2="2" p3="3" />
+          <t p1="2" p2="9" p3="6" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 7 8 5 4">
+        <tess>
+          <t p1="4" p2="7" p3="8" />
+          <t p1="8" p2="5" p3="4" />
+        </tess>
+      </pl>
+      <optOBBxy ref="8.2175 -0.1825 0" vx="0 0.365" vy="-8.4 0" h="2.75" />
+      <optOBB ref="-0.1825 0.182747 0" vx="0 -0.000247 2.750033" vy="0 -0.365247 -0.000033" vz="8.4 0 0" />
+    </data3D>
+    <data3D refID="11">
+      <p nr="0" x="-0.1825" y="7.8825" z="0" />
+      <p nr="1" x="-0.1825" y="0.1825" z="0" />
+      <p nr="2" x="-0.1825" y="0.1825" z="2.75" />
+      <p nr="3" x="-0.1825" y="7.8825" z="2.75" />
+      <p nr="4" x="0.1825" y="7.8825" z="0" />
+      <p nr="5" x="0.1825" y="7.5175" z="0" />
+      <p nr="6" x="0.1825" y="0.1825" z="0" />
+      <p nr="7" x="0.1825" y="0.1825" z="2.75" />
+      <p nr="8" x="0.1825" y="7.5175" z="2.75" />
+      <p nr="9" x="0.1825" y="7.8825" z="2.75" />
+      <pl length="5" points="0 1 2 3 0">
+        <tess>
+          <t p1="3" p2="0" p3="2" />
+          <t p1="1" p2="2" p3="0" />
+        </tess>
+      </pl>
+      <pl length="6" points="0 4 5 6 1 0">
+        <tess>
+          <t p1="1" p2="0" p3="5" />
+          <t p1="4" p2="5" p3="0" />
+          <t p1="5" p2="6" p3="1" />
+        </tess>
+      </pl>
+      <pl length="6" points="2 7 8 9 3 2">
+        <tess>
+          <t p1="3" p2="2" p3="8" />
+          <t p1="7" p2="8" p3="2" />
+          <t p1="8" p2="9" p3="3" />
+        </tess>
+      </pl>
+      <pl length="5" points="3 9 4 0 3">
+        <tess>
+          <t p1="9" p2="4" p3="0" />
+          <t p1="0" p2="3" p3="9" />
+        </tess>
+      </pl>
+      <pl length="7" points="4 9 8 7 6 5 4">
+        <tess>
+          <t p1="7" p2="6" p3="5" />
+          <t p1="7" p2="5" p3="8" />
+          <t p1="8" p2="4" p3="9" />
+          <t p1="4" p2="8" p3="5" />
+        </tess>
+      </pl>
+      <pl length="5" points="1 6 7 2 1">
+        <tess>
+          <t p1="1" p2="6" p3="7" />
+          <t p1="7" p2="2" p3="1" />
+        </tess>
+      </pl>
+      <optOBBxy ref="0.1825 0.1825 0" vx="0 7.7" vy="-0.365 0" h="2.75" />
+      <optOBB ref="-0.182747 7.8825 0" vx="0.000247 0 2.750033" vy="0 -7.7 0" vz="0.365247 0 -0.000033" />
+    </data3D>
+    <data3D refID="12">
+      <p nr="0" x="6.4675" y="7.8825" z="2.75" />
+      <p nr="1" x="6.4675" y="7.8825" z="0" />
+      <p nr="2" x="5.6675" y="7.8825" z="0" />
+      <p nr="3" x="2.3675" y="7.8825" z="0" />
+      <p nr="4" x="0.1825" y="7.8825" z="0" />
+      <p nr="5" x="0.1825" y="7.5175" z="0" />
+      <p nr="6" x="2.3675" y="7.5175" z="0" />
+      <p nr="7" x="5.5675" y="7.8825" z="0" />
+      <p nr="8" x="2.4675" y="7.8825" z="0" />
+      <p nr="9" x="2.4675" y="7.5175" z="0" />
+      <p nr="10" x="5.5675" y="7.5175" z="0" />
+      <p nr="11" x="5.6675" y="7.5175" z="0" />
+      <p nr="12" x="6.4675" y="7.5175" z="0" />
+      <p nr="13" x="5.6675" y="7.8825" z="2.75" />
+      <p nr="14" x="2.3675" y="7.8825" z="2.75" />
+      <p nr="15" x="0.1825" y="7.8825" z="2.75" />
+      <p nr="16" x="0.1825" y="7.5175" z="2.75" />
+      <p nr="17" x="2.3675" y="7.5175" z="2.75" />
+      <p nr="18" x="5.5675" y="7.8825" z="2.75" />
+      <p nr="19" x="2.4675" y="7.8825" z="2.75" />
+      <p nr="20" x="2.4675" y="7.5175" z="2.75" />
+      <p nr="21" x="5.5675" y="7.5175" z="2.75" />
+      <p nr="22" x="5.6675" y="7.5175" z="2.75" />
+      <p nr="23" x="6.4675" y="7.5175" z="2.75" />
+      <t p1="0" p2="1" p3="13" />
+      <t p1="2" p2="13" p3="1" />
+      <t p1="14" p2="3" p3="15" />
+      <t p1="4" p2="15" p3="3" />
+      <t p1="18" p2="7" p3="19" />
+      <t p1="8" p2="19" p3="7" />
+      <t p1="2" p2="1" p3="12" />
+      <t p1="12" p2="11" p3="2" />
+      <t p1="4" p2="3" p3="6" />
+      <t p1="6" p2="5" p3="4" />
+      <t p1="8" p2="7" p3="10" />
+      <t p1="10" p2="9" p3="8" />
+      <t p1="0" p2="13" p3="22" />
+      <t p1="22" p2="23" p3="0" />
+      <t p1="14" p2="15" p3="16" />
+      <t p1="16" p2="17" p3="14" />
+      <t p1="18" p2="19" p3="20" />
+      <t p1="20" p2="21" p3="18" />
+      <t p1="22" p2="11" p3="23" />
+      <t p1="12" p2="23" p3="11" />
+      <t p1="16" p2="5" p3="17" />
+      <t p1="6" p2="17" p3="5" />
+      <t p1="20" p2="9" p3="21" />
+      <t p1="10" p2="21" p3="9" />
+      <pl length="5" points="0 23 12 1 0">
+        <tess>
+          <t p1="1" p2="0" p3="23" />
+          <t p1="23" p2="12" p3="1" />
+        </tess>
+      </pl>
+      <pl length="5" points="2 11 22 13 2">
+        <tess>
+          <t p1="2" p2="22" p3="13" />
+          <t p1="22" p2="2" p3="11" />
+        </tess>
+      </pl>
+      <pl length="5" points="14 17 6 3 14">
+        <tess>
+          <t p1="6" p2="14" p3="17" />
+          <t p1="14" p2="6" p3="3" />
+        </tess>
+      </pl>
+      <pl length="5" points="8 9 20 19 8">
+        <tess>
+          <t p1="8" p2="20" p3="19" />
+          <t p1="20" p2="8" p3="9" />
+        </tess>
+      </pl>
+      <pl length="5" points="18 21 10 7 18">
+        <tess>
+          <t p1="10" p2="18" p3="21" />
+          <t p1="18" p2="10" p3="7" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 5 16 15 4">
+        <tess>
+          <t p1="4" p2="5" p3="16" />
+          <t p1="16" p2="15" p3="4" />
+        </tess>
+      </pl>
+      <optOBBxy ref="0.1825 7.5175 0" vx="6.285 0" vy="0 0.365" h="2.75" />
+      <optOBB ref="6.4675 7.882747 0" vx="0 -0.000247 2.750033" vy="-6.285 0 0" vz="0 -0.365247 -0.000033" />
+    </data3D>
+    <data3D refID="13">
+      <p nr="0" x="8.5825" y="-0.1825" z="0" />
+      <p nr="1" x="8.2175" y="-0.1825" z="0" />
+      <p nr="2" x="8.5825" y="-0.1825" z="2.75" />
+      <p nr="3" x="8.2175" y="-0.1825" z="2.75" />
+      <p nr="4" x="8.5825" y="7.8825" z="0" />
+      <p nr="5" x="8.2175" y="0.1825" z="0" />
+      <p nr="6" x="8.2175" y="7.5175" z="0" />
+      <p nr="7" x="8.2175" y="7.8825" z="0" />
+      <p nr="8" x="8.5825" y="7.8825" z="2.75" />
+      <p nr="9" x="8.2175" y="7.8825" z="2.75" />
+      <p nr="10" x="8.2175" y="7.5175" z="2.75" />
+      <p nr="11" x="8.2175" y="0.1825" z="2.75" />
+      <pl length="5" points="0 4 8 2 0">
+        <tess>
+          <t p1="2" p2="0" p3="4" />
+          <t p1="4" p2="8" p3="2" />
+        </tess>
+      </pl>
+      <pl length="7" points="0 1 5 6 7 4 0">
+        <tess>
+          <t p1="4" p2="0" p3="5" />
+          <t p1="5" p2="0" p3="1" />
+          <t p1="4" p2="5" p3="6" />
+          <t p1="6" p2="7" p3="4" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 7 9 8 4">
+        <tess>
+          <t p1="8" p2="4" p3="7" />
+          <t p1="7" p2="9" p3="8" />
+        </tess>
+      </pl>
+      <pl length="7" points="8 9 10 11 3 2 8">
+        <tess>
+          <t p1="2" p2="8" p3="10" />
+          <t p1="10" p2="8" p3="9" />
+          <t p1="2" p2="10" p3="11" />
+          <t p1="11" p2="3" p3="2" />
+        </tess>
+      </pl>
+      <pl length="5" points="2 3 1 0 2">
+        <tess>
+          <t p1="3" p2="1" p3="0" />
+          <t p1="0" p2="2" p3="3" />
+        </tess>
+      </pl>
+      <pl length="9" points="1 3 11 10 9 7 6 5 1">
+        <tess>
+          <t p1="7" p2="6" p3="10" />
+          <t p1="10" p2="9" p3="7" />
+          <t p1="6" p2="11" p3="10" />
+          <t p1="5" p2="1" p3="11" />
+          <t p1="3" p2="11" p3="1" />
+          <t p1="5" p2="11" p3="6" />
+        </tess>
+      </pl>
+      <optOBBxy ref="8.5825 -0.1825 0" vx="0 8.065" vy="-0.365 0" h="2.75" />
+      <optOBB ref="8.582746 7.8825 0" vx="-0.000247 0 2.750033" vy="-0.365247 0 -0.000033" vz="0 -8.065 0" />
+    </data3D>
+    <data3D refID="14">
+      <p nr="0" x="-0.1825" y="-0.1825" z="-0.2" />
+      <p nr="1" x="-0.1825" y="-0.1825" z="0" />
+      <p nr="2" x="-0.1825" y="7.8825" z="-0.2" />
+      <p nr="3" x="-0.1825" y="7.8825" z="0" />
+      <p nr="4" x="8.5825" y="-0.1825" z="-0.2" />
+      <p nr="5" x="8.5825" y="-0.1825" z="0" />
+      <p nr="6" x="8.5825" y="7.8825" z="-0.2" />
+      <p nr="7" x="8.5825" y="7.8825" z="0" />
+      <pl length="5" points="0 2 6 4 0">
+        <tess>
+          <t p1="4" p2="0" p3="6" />
+          <t p1="2" p2="6" p3="0" />
+        </tess>
+      </pl>
+      <pl length="5" points="0 1 3 2 0">
+        <tess>
+          <t p1="2" p2="0" p3="1" />
+          <t p1="1" p2="3" p3="2" />
+        </tess>
+      </pl>
+      <pl length="5" points="2 3 7 6 2">
+        <tess>
+          <t p1="6" p2="2" p3="3" />
+          <t p1="3" p2="7" p3="6" />
+        </tess>
+      </pl>
+      <pl length="5" points="6 7 5 4 6">
+        <tess>
+          <t p1="4" p2="6" p3="7" />
+          <t p1="7" p2="5" p3="4" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 5 1 0 4">
+        <tess>
+          <t p1="0" p2="4" p3="5" />
+          <t p1="5" p2="1" p3="0" />
+        </tess>
+      </pl>
+      <pl length="5" points="1 5 7 3 1">
+        <tess>
+          <t p1="7" p2="3" p3="1" />
+          <t p1="1" p2="5" p3="7" />
+        </tess>
+      </pl>
+      <optOBBxy ref="-0.1825 -0.1825 -0.2" vx="8.765 0" vy="0 8.065" h="0.2" />
+      <optOBB ref="8.5825 7.882518 -0.2" vx="0 -0.000018 0.200724" vy="-8.764999 0 0" vz="0 -8.065018 -0.000724" />
+    </data3D>
+    <data3D refID="15">
+      <p nr="0" x="6.5675" y="7.5175" z="0" />
+      <p nr="1" x="6.5675" y="7.5175" z="2.75" />
+      <p nr="2" x="6.5675" y="7.8825" z="0" />
+      <p nr="3" x="6.5675" y="7.8825" z="2.75" />
+      <p nr="4" x="8.2175" y="7.5175" z="0" />
+      <p nr="5" x="8.2175" y="7.5175" z="2.75" />
+      <p nr="6" x="8.2175" y="7.8825" z="0" />
+      <p nr="7" x="8.2175" y="7.8825" z="2.75" />
+      <pl length="5" points="0 4 5 1 0">
+        <tess>
+          <t p1="1" p2="0" p3="4" />
+          <t p1="4" p2="5" p3="1" />
+        </tess>
+      </pl>
+      <pl length="5" points="0 2 6 4 0">
+        <tess>
+          <t p1="4" p2="0" p3="6" />
+          <t p1="2" p2="6" p3="0" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 6 7 5 4">
+        <tess>
+          <t p1="4" p2="6" p3="7" />
+          <t p1="7" p2="5" p3="4" />
+        </tess>
+      </pl>
+      <pl length="5" points="5 7 3 1 5">
+        <tess>
+          <t p1="1" p2="5" p3="7" />
+          <t p1="7" p2="3" p3="1" />
+        </tess>
+      </pl>
+      <pl length="5" points="1 3 2 0 1">
+        <tess>
+          <t p1="0" p2="1" p3="3" />
+          <t p1="3" p2="2" p3="0" />
+        </tess>
+      </pl>
+      <pl length="5" points="2 3 7 6 2">
+        <tess>
+          <t p1="7" p2="6" p3="2" />
+          <t p1="2" p2="3" p3="7" />
+        </tess>
+      </pl>
+      <optOBBxy ref="6.5675 7.5175 0" vx="1.65 0" vy="0 0.365" h="2.75" />
+      <optOBB ref="6.5675 7.8825 -0.000148" vx="-0.000247 0 2.750148" vy="0 -0.365 0" vz="1.650247 0 0.000148" />
+    </data3D>
+    
+    <data3D refID="17">
+      <p nr="0" x="0.1825" y="0.1825" z="2.75" />
+      <p nr="1" x="0.1825" y="0.1825" z="0" />
+      <p nr="2" x="0.1825" y="7.5175" z="2.75" />
+      <p nr="3" x="0.1825" y="7.5175" z="0" />
+      <p nr="4" x="8.2175" y="0.1825" z="2.75" />
+      <p nr="5" x="8.2175" y="0.1825" z="0" />
+      <p nr="6" x="8.2175" y="7.5175" z="2.75" />
+      <p nr="7" x="6.5675" y="7.5175" z="2.75" />
+      <p nr="8" x="6.4675" y="7.5175" z="2.75" />
+      <p nr="9" x="6.4675" y="7.5175" z="0" />
+      <p nr="10" x="6.5675" y="7.5175" z="0" />
+      <p nr="11" x="8.2175" y="7.5175" z="0" />
+      <pl length="7" points="0 4 6 7 8 2 0">
+        <tess>
+          <t p1="2" p2="0" p3="8" />
+          <t p1="8" p2="0" p3="4" />
+          <t p1="7" p2="4" p3="6" />
+          <t p1="4" p2="7" p3="8" />
+        </tess>
+      </pl>
+      <pl length="5" points="0 1 5 4 0">
+        <tess>
+          <t p1="4" p2="0" p3="1" />
+          <t p1="1" p2="5" p3="4" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 5 11 6 4">
+        <tess>
+          <t p1="6" p2="4" p3="5" />
+          <t p1="5" p2="11" p3="6" />
+        </tess>
+      </pl>
+      <pl length="5" points="6 11 10 7 6">
+        <tess>
+          <t p1="7" p2="6" p3="11" />
+          <t p1="11" p2="10" p3="7" />
+        </tess>
+      </pl>
+      <pl length="5" points="7 10 9 8 7">
+        <tess>
+          <t p1="8" p2="7" p3="10" />
+          <t p1="10" p2="9" p3="8" />
+        </tess>
+      </pl>
+      <pl length="5" points="8 9 3 2 8">
+        <tess>
+          <t p1="2" p2="8" p3="9" />
+          <t p1="9" p2="3" p3="2" />
+        </tess>
+      </pl>
+      <pl length="5" points="2 3 1 0 2">
+        <tess>
+          <t p1="0" p2="2" p3="3" />
+          <t p1="3" p2="1" p3="0" />
+        </tess>
+      </pl>
+      <pl length="7" points="1 3 9 10 11 5 1">
+        <tess>
+          <t p1="11" p2="5" p3="10" />
+          <t p1="10" p2="5" p3="9" />
+          <t p1="9" p2="1" p3="3" />
+          <t p1="1" p2="9" p3="5" />
+        </tess>
+      </pl>
+      <optOBBxy ref="0.1825 0.1825 0" vx="8.035 0" vy="0 7.335" h="2.75" />
+      <optOBB ref="8.2175 7.517747 0" vx="0 -0.000247 2.750659" vy="-8.035 0 0" vz="0 -7.335247 -0.000659" />
+    </data3D>
+    <data3D refID="18">
+      <p nr="0" x="0.1825" y="0.1825" z="2.75" />
+      <p nr="1" x="0.1825" y="0.1825" z="0" />
+      <p nr="2" x="0.1825" y="7.5175" z="2.75" />
+      <p nr="3" x="0.1825" y="7.5175" z="0" />
+      <p nr="4" x="8.2175" y="0.1825" z="2.75" />
+      <p nr="5" x="8.2175" y="0.1825" z="0" />
+      <p nr="6" x="8.2175" y="7.5175" z="2.75" />
+      <p nr="7" x="6.5675" y="7.5175" z="2.75" />
+      <p nr="8" x="6.4675" y="7.5175" z="2.75" />
+      <p nr="9" x="6.4675" y="7.5175" z="0" />
+      <p nr="10" x="6.5675" y="7.5175" z="0" />
+      <p nr="11" x="8.2175" y="7.5175" z="0" />
+      <pl length="7" points="0 4 6 7 8 2 0">
+        <tess>
+          <t p1="2" p2="0" p3="8" />
+          <t p1="8" p2="0" p3="4" />
+          <t p1="7" p2="4" p3="6" />
+          <t p1="4" p2="7" p3="8" />
+        </tess>
+      </pl>
+      <pl length="5" points="0 1 5 4 0">
+        <tess>
+          <t p1="4" p2="0" p3="1" />
+          <t p1="1" p2="5" p3="4" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 5 11 6 4">
+        <tess>
+          <t p1="6" p2="4" p3="5" />
+          <t p1="5" p2="11" p3="6" />
+        </tess>
+      </pl>
+      <pl length="5" points="6 11 10 7 6">
+        <tess>
+          <t p1="7" p2="6" p3="11" />
+          <t p1="11" p2="10" p3="7" />
+        </tess>
+      </pl>
+      <pl length="5" points="7 10 9 8 7">
+        <tess>
+          <t p1="8" p2="7" p3="10" />
+          <t p1="10" p2="9" p3="8" />
+        </tess>
+      </pl>
+      <pl length="5" points="8 9 3 2 8">
+        <tess>
+          <t p1="2" p2="8" p3="9" />
+          <t p1="9" p2="3" p3="2" />
+        </tess>
+      </pl>
+      <pl length="5" points="2 3 1 0 2">
+        <tess>
+          <t p1="0" p2="2" p3="3" />
+          <t p1="3" p2="1" p3="0" />
+        </tess>
+      </pl>
+      <pl length="7" points="1 3 9 10 11 5 1">
+        <tess>
+          <t p1="11" p2="5" p3="10" />
+          <t p1="10" p2="5" p3="9" />
+          <t p1="9" p2="1" p3="3" />
+          <t p1="1" p2="9" p3="5" />
+        </tess>
+      </pl>
+      <optOBBxy ref="0.1825 0.1825 0" vx="8.035 0" vy="0 7.335" h="2.75" />
+      <optOBB ref="8.2175 7.517747 0" vx="0 -0.000247 2.750659" vy="-8.035 0 0" vz="0 -7.335247 -0.000659" />
+    </data3D>
+    <data3D refID="20">
+      <p nr="0" x="2.4175" y="7.5175" z="0" />
+      <p nr="1" x="2.4175" y="7.5175" z="2.75" />
+      <pl length="2" points="0 1" />
+      <optOBBxy ref="2.4175 7.5175 0" vx="0 0" vy="0 0" h="2.75" />
+      <optOBB ref="2.417745 7.51753 0" vx="-0.000245 -0.00003 2.75" vy="0 0 0" vz="-0.000245 -0.00003 0" />
+    </data3D>
+    <data3D refID="21">
+      <p nr="0" x="2.4675" y="9.0175" z="2.75" />
+      <p nr="1" x="2.3675" y="9.0175" z="2.75" />
+      <p nr="2" x="2.3675" y="7.8825" z="2.75" />
+      <p nr="3" x="2.3675" y="7.5175" z="2.75" />
+      <p nr="4" x="2.3675" y="6.0175" z="2.75" />
+      <p nr="5" x="2.3675" y="6.0175" z="0" />
+      <p nr="6" x="2.3675" y="7.5175" z="0" />
+      <p nr="7" x="2.3675" y="7.8825" z="0" />
+      <p nr="8" x="2.3675" y="9.0175" z="0" />
+      <p nr="9" x="2.4675" y="6.0175" z="2.75" />
+      <p nr="10" x="2.4675" y="6.0175" z="0" />
+      <p nr="11" x="2.4675" y="7.5175" z="2.75" />
+      <p nr="12" x="2.4675" y="7.5175" z="0" />
+      <p nr="13" x="2.4675" y="7.8825" z="2.75" />
+      <p nr="14" x="2.4675" y="7.8825" z="0" />
+      <p nr="15" x="2.4675" y="9.0175" z="0" />
+      <pl length="9" points="0 1 2 3 4 9 11 13 0">
+        <tess>
+          <t p1="11" p2="13" p3="2" />
+          <t p1="9" p2="11" p3="3" />
+          <t p1="13" p2="0" p3="2" />
+          <t p1="2" p2="3" p3="11" />
+          <t p1="3" p2="4" p3="9" />
+          <t p1="2" p2="0" p3="1" />
+        </tess>
+      </pl>
+      <pl length="5" points="0 15 8 1 0">
+        <tess>
+          <t p1="1" p2="0" p3="8" />
+          <t p1="15" p2="8" p3="0" />
+        </tess>
+      </pl>
+      <pl length="9" points="3 2 1 8 7 6 5 4 3">
+        <tess>
+          <t p1="2" p2="1" p3="8" />
+          <t p1="4" p2="3" p3="5" />
+          <t p1="2" p2="7" p3="3" />
+          <t p1="8" p2="7" p3="2" />
+          <t p1="6" p2="5" p3="3" />
+          <t p1="7" p2="6" p3="3" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 5 10 9 4">
+        <tess>
+          <t p1="9" p2="4" p3="10" />
+          <t p1="5" p2="10" p3="4" />
+        </tess>
+      </pl>
+      <pl length="9" points="13 11 9 10 12 14 15 0 13">
+        <tess>
+          <t p1="11" p2="9" p3="10" />
+          <t p1="0" p2="13" p3="15" />
+          <t p1="11" p2="14" p3="13" />
+          <t p1="10" p2="12" p3="11" />
+          <t p1="14" p2="15" p3="13" />
+          <t p1="12" p2="14" p3="11" />
+        </tess>
+      </pl>
+      <pl length="9" points="15 14 12 10 5 6 7 8 15">
+        <tess>
+          <t p1="6" p2="7" p3="14" />
+          <t p1="5" p2="6" p3="12" />
+          <t p1="7" p2="8" p3="14" />
+          <t p1="14" p2="12" p3="6" />
+          <t p1="12" p2="10" p3="5" />
+          <t p1="14" p2="8" p3="15" />
+        </tess>
+      </pl>
+      <optOBBxy ref="2.4675 6.0175 0" vx="0 3" vy="-0.1 0" h="2.75" />
+      <optOBB ref="2.3675 9.017747 0" vx="0 -0.000247 2.750269" vy="0 -3.000247 -0.000269" vz="0.1 0 0" />
+    </data3D>
+    <data3D refID="23">
+      <p nr="0" x="5.6175" y="7.9175" z="0" />
+      <p nr="1" x="5.6175" y="7.9175" z="2.75" />
+      <pl length="2" points="0 1" />
+      <optOBBxy ref="5.6175 7.9175 0" vx="0 0" vy="0 0" h="2.75" />
+      <optOBB ref="5.617638 7.917705 0" vx="-0.000138 -0.000205 2.75" vy="0 0 0" vz="-0.000138 -0.000205 0" />
+    </data3D>
+    <data3D refID="24">
+      <p nr="0" x="5.6675" y="9.4175" z="2.75" />
+      <p nr="1" x="5.5675" y="9.4175" z="2.75" />
+      <p nr="2" x="5.5675" y="7.8825" z="2.75" />
+      <p nr="3" x="5.5675" y="7.5175" z="2.75" />
+      <p nr="4" x="5.5675" y="6.4175" z="2.75" />
+      <p nr="5" x="5.5675" y="6.4175" z="0" />
+      <p nr="6" x="5.5675" y="7.5175" z="0" />
+      <p nr="7" x="5.5675" y="7.8825" z="0" />
+      <p nr="8" x="5.5675" y="9.4175" z="0" />
+      <p nr="9" x="5.6675" y="6.4175" z="2.75" />
+      <p nr="10" x="5.6675" y="6.4175" z="0" />
+      <p nr="11" x="5.6675" y="7.5175" z="2.75" />
+      <p nr="12" x="5.6675" y="7.5175" z="0" />
+      <p nr="13" x="5.6675" y="7.8825" z="2.75" />
+      <p nr="14" x="5.6675" y="7.8825" z="0" />
+      <p nr="15" x="5.6675" y="9.4175" z="0" />
+      <pl length="9" points="0 1 2 3 4 9 11 13 0">
+        <tess>
+          <t p1="13" p2="0" p3="1" />
+          <t p1="3" p2="9" p3="11" />
+          <t p1="11" p2="13" p3="2" />
+          <t p1="1" p2="2" p3="13" />
+          <t p1="4" p2="9" p3="3" />
+          <t p1="3" p2="11" p3="2" />
+        </tess>
+      </pl>
+      <pl length="5" points="0 15 8 1 0">
+        <tess>
+          <t p1="1" p2="0" p3="8" />
+          <t p1="15" p2="8" p3="0" />
+        </tess>
+      </pl>
+      <pl length="9" points="3 2 1 8 7 6 5 4 3">
+        <tess>
+          <t p1="2" p2="1" p3="8" />
+          <t p1="4" p2="3" p3="5" />
+          <t p1="2" p2="6" p3="3" />
+          <t p1="8" p2="7" p3="2" />
+          <t p1="6" p2="5" p3="3" />
+          <t p1="7" p2="6" p3="2" />
+        </tess>
+      </pl>
+      <pl length="5" points="4 5 10 9 4">
+        <tess>
+          <t p1="9" p2="4" p3="10" />
+          <t p1="5" p2="10" p3="4" />
+        </tess>
+      </pl>
+      <pl length="9" points="13 11 9 10 12 14 15 0 13">
+        <tess>
+          <t p1="11" p2="9" p3="10" />
+          <t p1="0" p2="13" p3="15" />
+          <t p1="11" p2="12" p3="13" />
+          <t p1="10" p2="12" p3="11" />
+          <t p1="14" p2="15" p3="13" />
+          <t p1="12" p2="14" p3="13" />
+        </tess>
+      </pl>
+      <pl length="9" points="15 14 12 10 5 6 7 8 15">
+        <tess>
+          <t p1="7" p2="8" p3="15" />
+          <t p1="12" p2="5" p3="6" />
+          <t p1="6" p2="7" p3="14" />
+          <t p1="15" p2="14" p3="7" />
+          <t p1="10" p2="5" p3="12" />
+          <t p1="12" p2="6" p3="14" />
+        </tess>
+      </pl>
+      <optOBBxy ref="5.6675 6.4175 0" vx="0 3" vy="-0.1 0" h="2.75" />
+      <optOBB ref="5.5675 9.417747 0" vx="0 -0.000247 2.750269" vy="0 -3.000247 -0.000269" vz="0.1 0 0" />
+    </data3D>
+  </objectDataSection>
+</objects>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity type="win32" name="ribvisualax3dv02.sxs" version="2.10.0.0" />
+
+<file name="ribvisualax3dv02.dll">
+	<typelib tlbid="{3BBBFC3A-304C-4AFE-84ED-C2840EE633CE}" version="1.0" helpdir="" />      
+	<comClass clsid="{C119C16C-B14F-4B4E-9B48-4705EF4F9AC8}" description="RIBvisualAX3D Class" progid="ribvisualax3dv02.RIBvisualAX3D.1" tlbid="{3BBBFC3A-304C-4AFE-84ED-C2840EE633CE}"/>
+</file>
+
+<comInterfaceExternalProxyStub name="IRIBvisualAX3D" iid="{9112871B-CDA7-4969-9645-212B37DAFB51}" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" baseInterface="{00000000-0000-0000-C000-000000000046}" tlbid="{3BBBFC3A-304C-4AFE-84ED-C2840EE633CE}" />
+<comInterfaceExternalProxyStub name="IRIBvisualAX3DEvents" iid="{CD89EC07-B141-4969-A839-16154D6693B0}" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" baseInterface="{00000000-0000-0000-C000-000000000046}" tlbid="{3BBBFC3A-304C-4AFE-84ED-C2840EE633CE}" />
+
+</assembly>

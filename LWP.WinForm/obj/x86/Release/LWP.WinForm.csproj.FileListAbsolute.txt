@@ -1,0 +1,14 @@
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\bin\Release\LWP.WinForm.exe.config
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\bin\Release\LWP.WinForm.exe
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\bin\Release\LWP.WinForm.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\bin\Release\LWP.Lib.dll
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\bin\Release\LWP.Lib.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.csprojResolveAssemblyReference.cache
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.KeywoardManage.resources
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.LogoManage.resources
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.Main.resources
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.Properties.Resources.resources
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.SampleManage.resources
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.csproj.GenerateResource.Cache
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.exe
+D:\SolutionDemo\YuSong\LWP\LWP.WinForm\obj\x86\Release\LWP.WinForm.pdb

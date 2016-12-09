@@ -1,0 +1,5 @@
+D:\SolutionDemo\YuSong\LWP\LWP.Lib\bin\Release\LWP.Lib.dll.config
+D:\SolutionDemo\YuSong\LWP\LWP.Lib\bin\Release\LWP.Lib.dll
+D:\SolutionDemo\YuSong\LWP\LWP.Lib\bin\Release\LWP.Lib.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.Lib\obj\Release\LWP.Lib.dll
+D:\SolutionDemo\YuSong\LWP\LWP.Lib\obj\Release\LWP.Lib.pdb

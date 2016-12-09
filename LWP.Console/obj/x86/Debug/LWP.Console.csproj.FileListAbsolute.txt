@@ -1,0 +1,5 @@
+D:\SolutionDemo\YuSong\LWP\LWP.Console\bin\Debug\LWP.Console.exe.config
+D:\SolutionDemo\YuSong\LWP\LWP.Console\bin\Debug\LWP.Console.exe
+D:\SolutionDemo\YuSong\LWP\LWP.Console\bin\Debug\LWP.Console.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.Console\obj\x86\Debug\LWP.Console.exe
+D:\SolutionDemo\YuSong\LWP\LWP.Console\obj\x86\Debug\LWP.Console.pdb

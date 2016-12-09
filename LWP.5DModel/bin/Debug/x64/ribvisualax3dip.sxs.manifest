@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+<assemblyIdentity type="win32" name="ribvisualax3dip.sxs" version="2.10.0.0" />
+
+<file name="ribvisualax3dip.dll">
+	<typelib tlbid="{7681CA28-B19C-4B6F-BAB5-B70FD78BC282}" version="1.0" helpdir="" />      
+	<comClass clsid="{032634E8-4B76-4808-9E48-3B638FB5FD30}" description="RIBvisualAX3DIP Class" progid="ribvisualax3dip.RIBvisualAX3DIP.1" tlbid="{7681CA28-B19C-4B6F-BAB5-B70FD78BC282}"/>
+</file>
+
+<comInterfaceExternalProxyStub name="IRIBvisualAX3DIP" iid="{638AB49A-D542-4E25-BEB0-D1A32E9AFFF8}" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" baseInterface="{00000000-0000-0000-C000-000000000046}" tlbid="{7681CA28-B19C-4B6F-BAB5-B70FD78BC282}" />
+<comInterfaceExternalProxyStub name="IRIBvisualAX3DIPEvents" iid="{DFB66EA5-F179-4D44-80BC-39B5029315C3}" proxyStubClsid32="{00020420-0000-0000-C000-000000000046}" baseInterface="{00000000-0000-0000-C000-000000000046}" tlbid="{7681CA28-B19C-4B6F-BAB5-B70FD78BC282}" />
+
+</assembly>

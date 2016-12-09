@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YusongCompanyModelStoreContainer" CdmEntityContainer="YusongCompanyEntities">
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="YusongCompanyModel.User">
+        <MappingFragment StoreEntitySet="User">
+          <ScalarProperty Name="DictLangId" ColumnName="DictLangId" />
+          <ScalarProperty Name="Memo" ColumnName="Memo" />
+          <ScalarProperty Name="WeChat" ColumnName="WeChat" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Tel" ColumnName="Tel" />
+          <ScalarProperty Name="Mobile" ColumnName="Mobile" />
+          <ScalarProperty Name="QQ" ColumnName="QQ" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="passwd" ColumnName="passwd" />
+          <ScalarProperty Name="email" ColumnName="email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Abouts">
+      <EntityTypeMapping TypeName="YusongCompanyModel.About">
+        <MappingFragment StoreEntitySet="About">
+          <ScalarProperty Name="DictLangId" ColumnName="DictLangId" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Brands">
+      <EntityTypeMapping TypeName="YusongCompanyModel.Brand">
+        <MappingFragment StoreEntitySet="Brand">
+          <ScalarProperty Name="DictLangId" ColumnName="DictLangId" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="SortVal" ColumnName="SortVal" />
+          <ScalarProperty Name="logo" ColumnName="logo" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dictionaries">
+      <EntityTypeMapping TypeName="YusongCompanyModel.Dictionary">
+        <MappingFragment StoreEntitySet="Dictionary">
+          <ScalarProperty Name="DictLangId" ColumnName="DictLangId" />
+          <ScalarProperty Name="DictText" ColumnName="DictText" />
+          <ScalarProperty Name="DictToken" ColumnName="DictToken" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Languages">
+      <EntityTypeMapping TypeName="YusongCompanyModel.Language">
+        <MappingFragment StoreEntitySet="Language">
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="News">
+      <EntityTypeMapping TypeName="YusongCompanyModel.News">
+        <MappingFragment StoreEntitySet="News">
+          <ScalarProperty Name="DictLangId" ColumnName="DictLangId" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="Summary" ColumnName="Summary" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Author" ColumnName="Author" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="title" ColumnName="title" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="YusongCompanyModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="DictLangId" ColumnName="DictLangId" />
+          <ScalarProperty Name="Attr4" ColumnName="Attr4" />
+          <ScalarProperty Name="Attr3" ColumnName="Attr3" />
+          <ScalarProperty Name="Attr2" ColumnName="Attr2" />
+          <ScalarProperty Name="Attr1" ColumnName="Attr1" />
+          <ScalarProperty Name="IsShow" ColumnName="IsShow" />
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="IsRecommend" ColumnName="IsRecommend" />
+          <ScalarProperty Name="IsHot" ColumnName="IsHot" />
+          <ScalarProperty Name="price" ColumnName="price" />
+          <ScalarProperty Name="thumbnail" ColumnName="thumbnail" />
+          <ScalarProperty Name="Attachment" ColumnName="Attachment" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="Describe" ColumnName="Describe" />
+          <ScalarProperty Name="ClassId" ColumnName="ClassId" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductClasses">
+      <EntityTypeMapping TypeName="YusongCompanyModel.ProductClass">
+        <MappingFragment StoreEntitySet="ProductClass">
+          <ScalarProperty Name="ParentId" ColumnName="ParentId" />
+          <ScalarProperty Name="DictLangId" ColumnName="DictLangId" />
+          <ScalarProperty Name="sort" ColumnName="sort" />
+          <ScalarProperty Name="No" ColumnName="No" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

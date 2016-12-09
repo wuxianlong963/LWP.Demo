@@ -1,0 +1,13 @@
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\bin\Debug\LWP.5DModel.exe.config
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\bin\Debug\LWP.5DModel.exe
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\bin\Debug\LWP.5DModel.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP._5DModel.Form1.resources
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP._5DModel.Properties.Resources.resources
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP.5DModel.csproj.GenerateResource.Cache
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP.5DModel.exe
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP.5DModel.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\Control\CpiViewerControl.baml
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\Control\CpiViewerControl.g.cs
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP.5DModel_MarkupCompile.cache
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP.5DModel.g.resources
+D:\SolutionDemo\YuSong\LWP\LWP.5DModel\obj\x86\Debug\LWP.5DModel.csprojResolveAssemblyReference.cache

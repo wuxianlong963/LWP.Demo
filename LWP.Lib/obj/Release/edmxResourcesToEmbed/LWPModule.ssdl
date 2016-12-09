@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="YusongCompanyModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="YusongCompanyModelStoreContainer">
+    <EntitySet Name="About" EntityType="YusongCompanyModel.Store.About" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Brand" EntityType="YusongCompanyModel.Store.Brand" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Dictionary" EntityType="YusongCompanyModel.Store.Dictionary" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Language" EntityType="YusongCompanyModel.Store.Language" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="News" EntityType="YusongCompanyModel.Store.News" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Product" EntityType="YusongCompanyModel.Store.Product" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProductClass" EntityType="YusongCompanyModel.Store.ProductClass" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="User" EntityType="YusongCompanyModel.Store.User" store:Type="Tables" Schema="dbo" />
+  </EntityContainer>
+  <EntityType Name="About">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Context" Type="ntext" />
+    <Property Name="DictLangId" Type="int" />
+  </EntityType>
+  <EntityType Name="Brand">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="logo" Type="nvarchar" MaxLength="200" />
+    <Property Name="SortVal" Type="int" />
+    <Property Name="IsShow" Type="bit" />
+    <Property Name="DictLangId" Type="int" />
+  </EntityType>
+  <EntityType Name="Dictionary">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="DictToken" Type="nvarchar" MaxLength="50" />
+    <Property Name="DictText" Type="nvarchar" />
+    <Property Name="DictLangId" Type="int" />
+  </EntityType>
+  <EntityType Name="Language">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Code" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="News">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="title" Type="nvarchar" MaxLength="200" />
+    <Property Name="Context" Type="ntext" />
+    <Property Name="Author" Type="nvarchar" MaxLength="50" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="Summary" Type="nvarchar" MaxLength="200" />
+    <Property Name="IsShow" Type="bit" />
+    <Property Name="DictLangId" Type="int" />
+  </EntityType>
+  <EntityType Name="Product">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" MaxLength="100" />
+    <Property Name="ClassId" Type="int" />
+    <Property Name="Describe" Type="nvarchar(max)" />
+    <Property Name="CreateDate" Type="datetime" />
+    <Property Name="Attachment" Type="int" />
+    <Property Name="thumbnail" Type="nvarchar" MaxLength="200" />
+    <Property Name="price" Type="nvarchar" MaxLength="50" />
+    <Property Name="IsHot" Type="bit" />
+    <Property Name="IsRecommend" Type="bit" />
+    <Property Name="BrandId" Type="int" />
+    <Property Name="IsShow" Type="bit" />
+    <Property Name="Attr1" Type="nvarchar" MaxLength="50" />
+    <Property Name="Attr2" Type="nvarchar" MaxLength="50" />
+    <Property Name="Attr3" Type="nvarchar" MaxLength="50" />
+    <Property Name="Attr4" Type="nvarchar" MaxLength="50" />
+    <Property Name="DictLangId" Type="int" />
+  </EntityType>
+  <EntityType Name="ProductClass">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="No" Type="nvarchar" MaxLength="50" />
+    <Property Name="sort" Type="int" Nullable="false" />
+    <Property Name="DictLangId" Type="int" Nullable="false" />
+    <Property Name="ParentId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="passwd" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="QQ" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mobile" Type="nvarchar" MaxLength="50" />
+    <Property Name="Tel" Type="nvarchar" MaxLength="50" />
+    <Property Name="Address" Type="nvarchar" MaxLength="100" />
+    <Property Name="WeChat" Type="nvarchar" MaxLength="50" />
+    <Property Name="Memo" Type="nvarchar" MaxLength="500" />
+    <Property Name="DictLangId" Type="int" />
+  </EntityType>
+</Schema>

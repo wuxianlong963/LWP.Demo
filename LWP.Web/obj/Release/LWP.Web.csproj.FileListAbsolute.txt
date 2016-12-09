@@ -1,0 +1,7 @@
+D:\SolutionDemo\YuSong\LWP\LWP.Web\bin\LWP.Web.dll
+D:\SolutionDemo\YuSong\LWP\LWP.Web\bin\LWP.Web.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.Web\bin\LWP.Lib.dll
+D:\SolutionDemo\YuSong\LWP\LWP.Web\bin\LWP.Lib.pdb
+D:\SolutionDemo\YuSong\LWP\LWP.Web\obj\Release\LWP.Web.csprojResolveAssemblyReference.cache
+D:\SolutionDemo\YuSong\LWP\LWP.Web\obj\Release\LWP.Web.dll
+D:\SolutionDemo\YuSong\LWP\LWP.Web\obj\Release\LWP.Web.pdb

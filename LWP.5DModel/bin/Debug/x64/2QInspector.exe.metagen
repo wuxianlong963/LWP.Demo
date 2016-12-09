@@ -1,0 +1,61 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly 2QInspector, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualC, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly RIB.Visual.Components.CPI, Version=6.0.213.0, Culture=neutral, PublicKeyToken=fe361e97ed5eb2d4: 
+	hash=None, flags=None
+Assembly RIB.Visual.Components.Model, Version=6.0.213.0, Culture=neutral, PublicKeyToken=fe361e97ed5eb2d4: 
+	hash=None, flags=None
+Assembly RIB.Visual.Components.Util, Version=6.0.213.0, Culture=neutral, PublicKeyToken=fe361e97ed5eb2d4: 
+	hash=None, flags=None
+Assembly RIB.Visual.Services.CpiModel.Shared, Version=6.0.213.0, Culture=neutral, PublicKeyToken=fe361e97ed5eb2d4: 
+	hash=None, flags=None
+Class DataProvider: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  Interfaces:
+    System.IDisposable
+  Methods:
+    ClearAll(): PrivateScope, Public, HideBySig
+    ClearFilterData(): PrivateScope, Public, HideBySig
+    GetInstance(): PrivateScope, Public, Static, HideBySig
+    CurrentDomain_AssemblyResolve(Object, ResolveEventArgs): PrivateScope, Public, Static, HideBySig
+    SetUpFilterData(QList<cpiIO::CpiObjects \*>*): PrivateScope, Public, HideBySig
+    IsProvideFitInfo(): PrivateScope, Public, HideBySig
+    IsProvideObjectInfo(): PrivateScope, Public, HideBySig
+    IsLoadBuildingStructureObjects(): PrivateScope, Public, HideBySig
+    GetObjectIDListByProperty(PropertyGroupType, QString*, QString*, QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetAllObjectID(QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetPropertyNamesByGroup(PropertyGroupType, QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetObjectNames(QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetElementTypes(QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetFitKeys(QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetMatchKeys(QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetFitNames(QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetPropertyValuesByName(PropertyGroupType, QString*, QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetPropertyNames(PropertyGroupType, QString* IsImplicitlyDereferenced, QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetPropertyNames(PropertyGroupType, QList<QString>* IsImplicitlyDereferenced, QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetPropertyValues(PropertyGroupType, QString*, QList<QString>* IsImplicitlyDereferenced, QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    GetIDListNoThisPropertyName(PropertyGroupType, QString*, QList<QString>* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    LoadLoggingFile(String): PrivateScope, Public, HideBySig
+    LoadDataFile(String): PrivateScope, Public, HideBySig
+    LoadBuildingStructureFile(String): PrivateScope, Public, HideBySig
+    LoadResultFile(String): PrivateScope, Public, HideBySig
+    LoadFitAndFitIds(String, String): PrivateScope, Public, HideBySig
+    GetLoggingObjects(): PrivateScope, Public, HideBySig
+    GetBuildingStructureObjects(): PrivateScope, Public, HideBySig
+    GetDataObjects(): PrivateScope, Public, HideBySig
+    GetResultObjects(): PrivateScope, Public, HideBySig
+    GetFitObjectList(): PrivateScope, Public, HideBySig
+    GetFitsAndCalcObjects(): PrivateScope, Public, HideBySig
+    GetFitItems(Dictionary`2* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
